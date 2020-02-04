@@ -1,0 +1,6 @@
+IO.puts("Calculate area of rectangle.")
+length = IO.gets("What is the length?")
+width = IO.gets("What is the width?")
+{len, _} = Float.parse(length)
+{wid, _ } = Float.parse(width)
+IO.puts("The area is #{ len * wid }")
